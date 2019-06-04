@@ -1,3 +1,25 @@
+<!doctype html>
+{% extends "admin/index.html" %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
 
+  <title>
+  	{% block title %}
+  		cadastro de empregados
+  	{% endblock%}
+  </title>
 
-<h1> hello </h1>
+</head>
+
+<body>
+  {% block content %}
+  	<h1> cadastro de novos empregados </h1>
+  	<h3> 
+  		<p> click on the right box to see last
+  		 recorded employee data or to create a new entry
+  		</p>
+  	</h3>
+  {% endblock%}
+</body>
+</html>

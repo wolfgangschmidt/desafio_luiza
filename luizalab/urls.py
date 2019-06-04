@@ -19,6 +19,6 @@ from cadastro.views import home_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home', home_view, name='home'),
+    path('', home_view, name='home'),
     path('api/cadastro', include('cadastro.api.urls')),
 ]
