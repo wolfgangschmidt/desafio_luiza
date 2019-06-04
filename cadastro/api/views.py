@@ -9,3 +9,10 @@ class FuncionarioCrudApiView(generics.RetrieveUpdateDestroyAPIView):
 	serializer_class = FuncionarioSerializer
 	def get_queryset(self):
 		return Funcionario
+
+class FuncionarioApiView(generics.CreateAPIView):
+	
+	look_up_field = "pk"
+	serializer_class = FuncionarioSerializer
+	def get_queryset(self):
+		return Funcionario
