@@ -1,7 +1,7 @@
 # desafio_luiza
 desafio_luiza
 
-** setting up project **
+**setting up project**
 
 	```pip install -r requirements.txt```
   
